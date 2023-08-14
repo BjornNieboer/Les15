@@ -1,0 +1,71 @@
+p {
+background-color: lightblue;
+font-family: 'Handlee', cursive;
+width: 700px;
+border-radius: 8px;
+}
+body {
+background-color: lightgreen;
+}
+footer{
+background-color: olive;
+color: white;
+width: 700px;
+border-radius: 8px;
+text-align: center;
+}
+ul a{
+color: white;
+text-decoration: none;
+}
+table{
+width: 700px;
+}
+td, th{
+padding: 10px 5px;background-color: lightblue;
+text-align: center;
+border-radius: 8px;
+}
+li{
+display: inline-block;
+height: 22px;
+width: 175px;
+padding: 12px;
+text-align: center;
+color: white;
+border-left: 2px solid green;
+border-right: 1px solid green;
+border-radius: 8px;
+background-color: olive;
+}
+li:hover{
+background-color: darkgreen;
+border-style: none;
+}
+form{
+width: 700px;
+text-align: center;
+}
+input[type="text"], input[type="email"], textarea, select, button{
+display: block;
+margin: 15px 0px;
+width: 700px;
+box-sizing: border-box;
+border-radius: 4px; box-shadow: inset 2px 2px 5px olive;
+}
+textarea {
+height: 100px;
+padding: 5px 4px;
+}
+button:active{
+background-color: olive;
+color: white;
+border-radius: 4px;
+}
+img{
+border-radius: 8px;
+}
+h1{
+width: 700px;
+text-align: center;
+}
